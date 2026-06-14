@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  ✅ SITEMAP.XML — SnetProDz
-  ارفع هذا الملف في نفس فولدر index.html على snetprodz.com
-  ثم أضفه في Google Search Console
--->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.snetpeodz.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/"/>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
   <!-- الصفحة الرئيسية — Arabic -->
   <url>
