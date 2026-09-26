@@ -8,17 +8,21 @@
 <meta name="keywords" content="تصميم مواقع الجزائر, إنشاء موقع إلكتروني في الجزائر, تطبيقات الهاتف الجزائر, تطبيق أندرويد, تطبيق حاسوب, تصميم موقع مطعم, موقع عيادة, تصميم مواقع مستغانم, création site web Algérie, application mobile Algérie, agence web Algérie, SnetProDz">
 <meta name="author" content="ساخي عبد الرحمن — SnetProDz">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="canonical" id="canonicalLink" href="https://www.snetpeodz.com/">
 <link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/">
 <link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/?lang=fr">
 <link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/">
 <script>
 (function(){
-  if (new URLSearchParams(location.search).get('lang') !== 'fr') return;
+  // canonical is created here, not in static HTML, so ?lang=fr never carries a conflicting canonical
+  var fr = new URLSearchParams(location.search).get('lang') === 'fr';
+  var c = document.createElement('link');
+  c.rel = 'canonical'; c.id = 'canonicalLink';
+  c.href = 'https://www.snetpeodz.com/' + (fr ? '?lang=fr' : '');
+  document.head.appendChild(c);
+  if (!fr) return;
   var h = document.documentElement;
   h.setAttribute('lang','fr'); h.setAttribute('dir','ltr');
   document.title = 'Création de sites web & applications en Algérie | SnetProDz — dès 29 000 DA';
-  document.getElementById('canonicalLink').href = 'https://www.snetpeodz.com/?lang=fr';
   var d = document.getElementById('metaDesc');
   d.dataset.ar = d.content;
   d.content = "Agence web en Algérie : création de sites web, applications mobiles Android/iOS et logiciels desktop pour restaurants, cliniques, entreprises et boutiques. Sites dès 29 000 DA, livraison rapide, support gratuit. Devis gratuit sous 24h.";
