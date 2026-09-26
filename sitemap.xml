@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
   <url>
     <loc>https://www.snetpeodz.com/</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/"/>
@@ -9,7 +8,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/"/>
     <lastmod>2026-09-26</lastmod>
   </url>
-
   <url>
     <loc>https://www.snetpeodz.com/?lang=fr</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/"/>
@@ -17,5 +15,214 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/"/>
     <lastmod>2026-09-26</lastmod>
   </url>
-
+  <url>
+    <loc>https://www.snetpeodz.com/restaurant-website/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/restaurant-website/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/site-restaurant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/restaurant-website/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/site-restaurant/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/restaurant-website/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/site-restaurant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/restaurant-website/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/clinic-website/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/clinic-website/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/site-clinique/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/clinic-website/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/site-clinique/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/clinic-website/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/site-clinique/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/clinic-website/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/company-website/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/company-website/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/site-entreprise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/company-website/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/site-entreprise/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/company-website/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/site-entreprise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/company-website/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/online-store/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/online-store/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/boutique-en-ligne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/online-store/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/boutique-en-ligne/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/online-store/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/boutique-en-ligne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/online-store/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/mobile-app/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/mobile-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/application-mobile/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/mobile-app/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/application-mobile/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/mobile-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/application-mobile/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/mobile-app/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/desktop-software/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/desktop-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/logiciel-de-gestion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/desktop-software/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/logiciel-de-gestion/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/desktop-software/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/logiciel-de-gestion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/desktop-software/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/landing-page/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/landing-page/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/landing-page/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/landing-page/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/landing-page/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/landing-page/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/landing-page/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/landing-page/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/seo/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/seo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/referencement-seo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/seo/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/referencement-seo/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/seo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/referencement-seo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/seo/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/website-design-algeria/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-algeria/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-algerie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-algeria/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/creation-site-web-algerie/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-algeria/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-algerie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-algeria/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/website-design-algiers/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-algiers/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-alger/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-algiers/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/creation-site-web-alger/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-algiers/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-alger/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-algiers/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/website-design-oran/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-oran/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-oran/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-oran/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/creation-site-web-oran/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-oran/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-oran/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-oran/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/website-design-constantine/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-constantine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-constantine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-constantine/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/creation-site-web-constantine/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-constantine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-constantine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-constantine/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/website-design-mostaganem/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-mostaganem/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-mostaganem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-mostaganem/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/creation-site-web-mostaganem/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-mostaganem/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-mostaganem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-mostaganem/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/website-design-setif/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-setif/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-setif/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-setif/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/creation-site-web-setif/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-setif/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-setif/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-setif/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/website-design-annaba/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-annaba/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-annaba/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-annaba/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.snetpeodz.com/fr/creation-site-web-annaba/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.snetpeodz.com/website-design-annaba/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.snetpeodz.com/fr/creation-site-web-annaba/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.snetpeodz.com/website-design-annaba/"/>
+    <lastmod>2026-09-26</lastmod>
+  </url>
 </urlset>

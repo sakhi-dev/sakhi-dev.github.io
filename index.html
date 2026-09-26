@@ -235,6 +235,10 @@ nav{position:fixed;top:32px;width:100%;z-index:100;padding:1.2rem 4rem;display:f
 .service-title{font-family:'Tajawal',sans-serif;font-weight:700;font-size:1.2rem;margin-bottom:.6rem;letter-spacing:-.5px;}
 [dir=ltr] .service-title{font-family:'Inter',sans-serif;letter-spacing:0;}
 .service-desc{font-size:.88rem;color:var(--muted);line-height:1.8;}
+.service-title a{color:inherit;text-decoration:none;}
+.service-title a::after{content:' ←';color:var(--accent);}
+[dir=ltr] .service-title a::after{content:' →';}
+.service-title a:hover{color:var(--accent);}
 
 /* ══════════════════════════════════════
    PORTFOLIO — ENHANCED WITH REAL PROJECTS
@@ -452,7 +456,7 @@ nav{position:fixed;top:32px;width:100%;z-index:100;padding:1.2rem 4rem;display:f
 .btn-cta-ghost:hover{color:var(--paper);}
 
 /* FOOTER */
-footer{background:#050508;color:rgba(245,242,235,.5);padding:4rem;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:4rem;}
+footer{background:#050508;color:rgba(245,242,235,.5);padding:4rem;display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:3rem;}
 .footer-logo{font-family:'Tajawal',sans-serif;font-weight:900;font-size:1.9rem;color:var(--paper);margin-bottom:.8rem;}
 [dir=ltr] .footer-logo{font-family:'Playfair Display',serif;}
 .footer-desc{font-size:.87rem;line-height:1.8;margin-bottom:1.8rem;}
@@ -524,6 +528,7 @@ footer{background:#050508;color:rgba(245,242,235,.5);padding:4rem;display:grid;g
 @media(max-width:1024px){
   .portfolio-grid{grid-template-columns:1fr 1fr;}
   .map-overlay-card{width:240px;padding:1.2rem;}
+  footer{grid-template-columns:1fr 1fr;gap:2.5rem;}
 }
 @media(max-width:768px){
   .lang-bar{padding:.35rem 1.5rem;}
@@ -697,14 +702,14 @@ footer{background:#050508;color:rgba(245,242,235,.5);padding:4rem;display:grid;g
     <a href="#contact" class="section-link"><span data-ar>ابدأ مشروعك ←</span><span data-fr>Démarrer →</span></a>
   </div>
   <div class="services-grid">
-    <div class="service-card reveal"><div class="service-num">01</div><div class="service-icon">🍽️</div><h3 class="service-title"><span data-ar>مواقع المطاعم</span><span data-fr>Sites restaurants</span></h3><p class="service-desc"><span data-ar>قائمة طعام رقمية، نظام حجز طاولات، معرض أطباق وطلب توصيل أونلاين.</span><span data-fr>Menu digital, réservation de tables, galerie et commandes en ligne.</span></p></div>
-    <div class="service-card reveal"><div class="service-num">02</div><div class="service-icon">🩺</div><h3 class="service-title"><span data-ar>مواقع العيادات</span><span data-fr>Sites de cliniques</span></h3><p class="service-desc"><span data-ar>نظام حجز مواعيد أونلاين، عرض الخدمات الطبية، معرض الشهادات وفريق الأطباء.</span><span data-fr>Réservation de rendez-vous, présentation des services médicaux et galerie.</span></p></div>
-    <div class="service-card reveal"><div class="service-num">03</div><div class="service-icon">✨</div><h3 class="service-title"><span data-ar>مواقع النظافة المهنية</span><span data-fr>Sites nettoyage pro</span></h3><p class="service-desc"><span data-ar>عرض احترافي لخدمات التنظيف، نموذج طلب خدمة، شهادات العملاء وتسعيرة واضحة.</span><span data-fr>Présentation des services, formulaire de devis, témoignages et tarifs clairs.</span></p></div>
-    <div class="service-card reveal"><div class="service-num">04</div><div class="service-icon">🛒</div><h3 class="service-title"><span data-ar>مواقع الشركات والمتاجر</span><span data-fr>Sites entreprises & boutiques</span></h3><p class="service-desc"><span data-ar>موقع تعريفي أو متجر إلكتروني كامل مع بوابة دفع يحوّل الزوار إلى عملاء.</span><span data-fr>Site vitrine ou boutique e-commerce complète avec paiement en ligne.</span></p></div>
-    <div class="service-card reveal"><div class="service-num">05</div><div class="service-icon">📱</div><h3 class="service-title"><span data-ar>تطبيقات الهاتف</span><span data-fr>Applications mobiles</span></h3><p class="service-desc"><span data-ar>تطبيقات Android وiOS لمشروعك: طلبات، حجوزات، حساب مستخدم وإشعارات فورية.</span><span data-fr>Apps Android & iOS : commandes, réservations, comptes utilisateurs et notifications.</span></p></div>
-    <div class="service-card reveal"><div class="service-num">06</div><div class="service-icon">💻</div><h3 class="service-title"><span data-ar>برامج الحاسوب</span><span data-fr>Logiciels Desktop</span></h3><p class="service-desc"><span data-ar>برامج إدارة لنظام Windows: فوترة، مخزون، نقاط بيع (POS) وقواعد بيانات.</span><span data-fr>Logiciels de gestion Windows : facturation, stock, point de vente (POS).</span></p></div>
-    <div class="service-card reveal"><div class="service-num">07</div><div class="service-icon">🎯</div><h3 class="service-title"><span data-ar>Landing Pages</span><span data-fr>Landing Pages</span></h3><p class="service-desc"><span data-ar>صفحات هبوط عالية التحويل لحملاتك على Facebook وInstagram.</span><span data-fr>Pages à fort taux de conversion pour vos campagnes publicitaires.</span></p></div>
-    <div class="service-card reveal"><div class="service-num">08</div><div class="service-icon">🔍</div><h3 class="service-title"><span data-ar>SEO تحسين البحث</span><span data-fr>SEO & Référencement</span></h3><p class="service-desc"><span data-ar>موقعك في الصفحة الأولى من Google عند البحث عن خدماتك في الجزائر.</span><span data-fr>Votre site en première page Google pour vos services en Algérie.</span></p></div>
+    <div class="service-card reveal"><div class="service-num">01</div><div class="service-icon">🍽️</div><h3 class="service-title"><a data-ar href="/restaurant-website/">مواقع المطاعم</a><a data-fr href="/fr/site-restaurant/">Sites restaurants</a></h3><p class="service-desc"><span data-ar>قائمة طعام رقمية، نظام حجز طاولات، معرض أطباق وطلب توصيل أونلاين.</span><span data-fr>Menu digital, réservation de tables, galerie et commandes en ligne.</span></p></div>
+    <div class="service-card reveal"><div class="service-num">02</div><div class="service-icon">🩺</div><h3 class="service-title"><a data-ar href="/clinic-website/">مواقع العيادات</a><a data-fr href="/fr/site-clinique/">Sites de cliniques</a></h3><p class="service-desc"><span data-ar>نظام حجز مواعيد أونلاين، عرض الخدمات الطبية، معرض الشهادات وفريق الأطباء.</span><span data-fr>Réservation de rendez-vous, présentation des services médicaux et galerie.</span></p></div>
+    <div class="service-card reveal"><div class="service-num">03</div><div class="service-icon">✨</div><h3 class="service-title"><a data-ar href="/company-website/">مواقع النظافة المهنية</a><a data-fr href="/fr/site-entreprise/">Sites nettoyage pro</a></h3><p class="service-desc"><span data-ar>عرض احترافي لخدمات التنظيف، نموذج طلب خدمة، شهادات العملاء وتسعيرة واضحة.</span><span data-fr>Présentation des services, formulaire de devis, témoignages et tarifs clairs.</span></p></div>
+    <div class="service-card reveal"><div class="service-num">04</div><div class="service-icon">🛒</div><h3 class="service-title"><a data-ar href="/online-store/">مواقع الشركات والمتاجر</a><a data-fr href="/fr/boutique-en-ligne/">Sites entreprises & boutiques</a></h3><p class="service-desc"><span data-ar>موقع تعريفي أو متجر إلكتروني كامل مع بوابة دفع يحوّل الزوار إلى عملاء.</span><span data-fr>Site vitrine ou boutique e-commerce complète avec paiement en ligne.</span></p></div>
+    <div class="service-card reveal"><div class="service-num">05</div><div class="service-icon">📱</div><h3 class="service-title"><a data-ar href="/mobile-app/">تطبيقات الهاتف</a><a data-fr href="/fr/application-mobile/">Applications mobiles</a></h3><p class="service-desc"><span data-ar>تطبيقات Android وiOS لمشروعك: طلبات، حجوزات، حساب مستخدم وإشعارات فورية.</span><span data-fr>Apps Android & iOS : commandes, réservations, comptes utilisateurs et notifications.</span></p></div>
+    <div class="service-card reveal"><div class="service-num">06</div><div class="service-icon">💻</div><h3 class="service-title"><a data-ar href="/desktop-software/">برامج الحاسوب</a><a data-fr href="/fr/logiciel-de-gestion/">Logiciels Desktop</a></h3><p class="service-desc"><span data-ar>برامج إدارة لنظام Windows: فوترة، مخزون، نقاط بيع (POS) وقواعد بيانات.</span><span data-fr>Logiciels de gestion Windows : facturation, stock, point de vente (POS).</span></p></div>
+    <div class="service-card reveal"><div class="service-num">07</div><div class="service-icon">🎯</div><h3 class="service-title"><a data-ar href="/landing-page/">Landing Pages</a><a data-fr href="/fr/landing-page/">Landing Pages</a></h3><p class="service-desc"><span data-ar>صفحات هبوط عالية التحويل لحملاتك على Facebook وInstagram.</span><span data-fr>Pages à fort taux de conversion pour vos campagnes publicitaires.</span></p></div>
+    <div class="service-card reveal"><div class="service-num">08</div><div class="service-icon">🔍</div><h3 class="service-title"><a data-ar href="/seo/">SEO تحسين البحث</a><a data-fr href="/fr/referencement-seo/">SEO & Référencement</a></h3><p class="service-desc"><span data-ar>موقعك في الصفحة الأولى من Google عند البحث عن خدماتك في الجزائر.</span><span data-fr>Votre site en première page Google pour vos services en Algérie.</span></p></div>
     <div class="service-card reveal"><div class="service-num">09</div><div class="service-icon">🛠️</div><h3 class="service-title"><span data-ar>صيانة ودعم تقني</span><span data-fr>Maintenance & Support</span></h3><p class="service-desc"><span data-ar>تحديثات، نسخ احتياطي، حماية ومتابعة شهرية تبقي موقعك وتطبيقك يعملان بأمان.</span><span data-fr>Mises à jour, sauvegardes, sécurité et suivi mensuel de votre site ou app.</span></p></div>
   </div>
 </section>
@@ -1448,11 +1453,26 @@ footer{background:#050508;color:rgba(245,242,235,.5);padding:4rem;display:grid;g
   <div class="footer-col">
     <h4><span data-ar>الخدمات</span><span data-fr>Services</span></h4>
     <ul class="footer-links">
-      <li><a href="#services"><span data-ar>تصميم مواقع الجزائر</span><span data-fr>Sites web Algérie</span></a></li>
-      <li><a href="#services"><span data-ar>تطبيقات الهاتف</span><span data-fr>Applications mobiles</span></a></li>
-      <li><a href="#services"><span data-ar>برامج الحاسوب</span><span data-fr>Logiciels desktop</span></a></li>
-      <li><a href="#pricing"><span data-ar>الأسعار</span><span data-fr>Tarifs</span></a></li>
-      <li><a href="#services"><span data-ar>SEO الجزائر</span><span data-fr>SEO Algérie</span></a></li>
+      <li><a data-ar href="/restaurant-website/">تصميم موقع مطعم</a><a data-fr href="/fr/site-restaurant/">Site restaurant</a></li>
+      <li><a data-ar href="/clinic-website/">تصميم موقع عيادة</a><a data-fr href="/fr/site-clinique/">Site clinique</a></li>
+      <li><a data-ar href="/company-website/">تصميم موقع شركة</a><a data-fr href="/fr/site-entreprise/">Site entreprise</a></li>
+      <li><a data-ar href="/online-store/">متجر إلكتروني</a><a data-fr href="/fr/boutique-en-ligne/">Boutique en ligne</a></li>
+      <li><a data-ar href="/mobile-app/">تطبيقات الهاتف</a><a data-fr href="/fr/application-mobile/">Application mobile</a></li>
+      <li><a data-ar href="/desktop-software/">برامج التسيير</a><a data-fr href="/fr/logiciel-de-gestion/">Logiciel de gestion</a></li>
+      <li><a data-ar href="/landing-page/">صفحة هبوط</a><a data-fr href="/fr/landing-page/">Landing page</a></li>
+      <li><a data-ar href="/seo/">خدمة SEO</a><a data-fr href="/fr/referencement-seo/">Référencement SEO</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4><span data-ar>المدن</span><span data-fr>Villes</span></h4>
+    <ul class="footer-links">
+      <li><a data-ar href="/website-design-algiers/">الجزائر العاصمة</a><a data-fr href="/fr/creation-site-web-alger/">Alger</a></li>
+      <li><a data-ar href="/website-design-oran/">وهران</a><a data-fr href="/fr/creation-site-web-oran/">Oran</a></li>
+      <li><a data-ar href="/website-design-constantine/">قسنطينة</a><a data-fr href="/fr/creation-site-web-constantine/">Constantine</a></li>
+      <li><a data-ar href="/website-design-mostaganem/">مستغانم</a><a data-fr href="/fr/creation-site-web-mostaganem/">Mostaganem</a></li>
+      <li><a data-ar href="/website-design-setif/">سطيف</a><a data-fr href="/fr/creation-site-web-setif/">Sétif</a></li>
+      <li><a data-ar href="/website-design-annaba/">عنابة</a><a data-fr href="/fr/creation-site-web-annaba/">Annaba</a></li>
+      <li><a data-ar href="/website-design-algeria/">كل الولايات ←</a><a data-fr href="/fr/creation-site-web-algerie/">Toutes les wilayas →</a></li>
     </ul>
   </div>
   <div class="footer-col">
