@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://www.snetpeodz.com/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 10
